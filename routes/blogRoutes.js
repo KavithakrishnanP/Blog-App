@@ -12,7 +12,7 @@ const router = express.Router();
 
 //routes
 // GET || all blogs
-router.get("/all-blog", getAllBlogsController);
+router.get("/get-all-blogs", getAllBlogsController);
 
 //POST || create blog
 router.post("/create-blog", createBlogController);
