@@ -9,7 +9,7 @@ const {
 const router = express.Router();
 
 // GET ALL USERS || GET
-router.get("/all-users", getAllUsers);
+router.get("/get-all-users", getAllUsers);
 
 // CREATE USER || POST
 router.post("/register", registerController);
